@@ -9,7 +9,7 @@ public static synchronized  Connection connect()
 		    String db     =  "bluebook";
 		    String driver =  "com.mysql.jdbc.Driver";
 		    String user   =  "root";
-		    String pass   =  "root040900";
+		    String pass   =  "root";
 		      Class.forName(driver).newInstance();
 		      con = DriverManager.getConnection(url+db, user, pass);
 		      System.out.println("Connected to database.");
